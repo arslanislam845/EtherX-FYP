@@ -1,0 +1,59 @@
+.pay {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    .left {
+      width: 50%;
+      background-color: #2f3135;
+      color: #ffffff;
+      padding:  70px;    
+      .container {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          .title{
+              opacity: 40%;
+              font-family: "roboto";
+          }
+        .info {
+          margin-top: 30px;
+          h1 {
+            font-weight: 500;
+          }
+        }
+  
+        .details{
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+  
+            .subTotal{
+              display: flex;
+              justify-content: space-between;
+            }
+        }
+  
+  
+        .features {
+          .item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 300;
+            color: gray;
+            margin-bottom: 5px;
+  
+            img {
+              width: 14px;
+            }
+          }
+        }
+      }
+    }
+    .Cyptroright {
+      width: 50%;
+      margin: 70px auto; 
+     
+      justify-content: center; 
+    }
+  }

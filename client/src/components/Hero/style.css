@@ -1,0 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+
+
+.font{
+    font-family: 'Lexend', sans-serif;
+    background-image: url("./Assets/Frame.jpeg"); 
+    /* background-image: url("https://wallpaperaccess.com/full/1388347.jpg");  */
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f0f8ff;
+    /* background-color: rgba(16, 16, 203, 0.5); */
+    /* background-color: rgb(52, 52, 58);
+     */
+     /* background-color: #0c1047; */
+    background-blend-mode: overlay; 
+  
+}
+
+
+.getStarted{
+    font-family: 'Lexend', sans-serif;
+    background-image: url("Assets/getstarted.jpeg");  
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f0f8ff;
+    background-color: #2A1645;
+    background-blend-mode: overlay;    
+}
+
+.Explorefont{
+    font-family: 'Lexend', sans-serif;
+}
+
+.Footerfont{
+    font-family: 'Lexend', sans-serif;
+}
+.bad{
+    background-image: url("./Assets/my.png");
+} 
+
+/* Animation */
+.animate-charcter
+{
+   /* text-transform: uppercase; */
+  background-image: linear-gradient(
+    -225deg,
+    /* #ffffff 0%, */
+    #ff0492 29%,
+    #c806da 67%,
+    #231557 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* Animation for Buy and sell  */
+/* body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+  } */
+.h1 {
+    color: white;
+    font-family: tahoma;
+    font-family: 'Lexend', sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    padding-left: 1rem;
+    line-height: 1.5;
+    /* text-transform: uppercase; */
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    /* width: 550px; */
+  }
+ 
+.h1 .span {
+    font-size: 60px;
+    margin-left: -380px;
+  }
+.message {
+    /* background-color: yellow; */
+    color: white;
+    display: block;
+    font-weight: 900;
+    overflow: hidden;
+    position: absolute;
+    padding-left: 1rem;
+    top: 0.2rem;
+    /* left: 10px; */
+    animation: openclose 10s ease-in-out infinite;
+  }
+  
+.word1, .word2, .word3 {
+    font-family: tahoma;
+    font-family: 'Lexend', sans-serif;
+    
+  }
+  
+  .slider-arrow {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  .arrow-btn {
+    top: 40%;
+    z-index: 1;
+    border: 1rem solid black;
+    margin: 20px 10px;
+    padding: 10px 5px;
+  }
+  .next {
+    float: right;
+  }
+
+@keyframes openclose{
+    0% {
+      top: 0.2rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 340px;
+    }
+    30% {
+      top: 0.2rem;
+      width: 360px;
+    }
+    33% {
+      top: 0.2rem;
+      width: 0;
+    }
+    35% {
+      top: 0.2rem;
+      width: 0;
+    }
+    38% {
+      top: -5.05rem;
+      
+    }
+    48% {
+      top: -5.05rem;
+      width: 240px;
+    }
+    62% {
+      top: -5.05rem;
+      width: 260px;
+    }
+    66% {
+      top: -5.05rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -9.8rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -9.8rem;
+      width: 285px;
+    }
+    95% {
+      top: -9.8rem;
+      width: 300px;
+    }
+    98% {
+      top: -9.8rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+  }
+
+  /* .line {
+    width: 100%;
+    height: 4rem;
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 0;
+    margin-bottom: 16px;
+  } */
+.lineUp {
+    animation: 5s anim-lineUp ease-out infinite;
+  }
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
