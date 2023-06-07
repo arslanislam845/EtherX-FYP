@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.scss";
 import { useEffect } from "react";
+import  Faqs  from "../../components/Faqs/Faqs";
 import Featured from "../../components/Hero/Featured";
 import TrustedBy from "../../components/TrustedBy/TrustedBy";
 import Slider from "../../components/Slider/Slider";
@@ -64,7 +65,7 @@ const Home = () => {
       </div>
 
       <Slider1/>    
-
+      
       {/* Another Feature Section  */}
       <div className="features dark">
         <div className="container">
@@ -88,7 +89,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+      <Faqs/>
 
     </div>
   );

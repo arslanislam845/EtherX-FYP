@@ -85,7 +85,7 @@ const Messages = () => {
       ) :  (
         <div className="container">
           <div className="title">
-            <h1>Messages</h1>
+            <h1 className="text-3xl font-semibold">Messages</h1>
           </div>
           <table>
             <tr>

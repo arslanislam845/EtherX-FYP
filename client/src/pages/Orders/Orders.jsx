@@ -89,7 +89,7 @@ const Orders = () => {
       ) :  (
         <div className="container">
           <div className="title">
-            <h1>Orders</h1>
+            <h1 className="text-3xl font-semibold">Orders</h1>
           </div>
           <table>
             <tr>
